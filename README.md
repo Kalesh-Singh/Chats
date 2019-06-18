@@ -6,7 +6,7 @@
 + Zaykha Kyaw San
 
 ## Overview
-CHATS is a multithreaded client server application. Once connected to the server, users by default join chat room and can instant message other users in the room.
+CHATS is a multithreaded chat server application. Once connected to the server, users by default join chat room and can instant message other users in the room.
 
 Chats does not have any persistent state. Meaning that the user will only see messages from the time they entered a chat room to the point at which they leave. Consequently, chat history will not persist across sessions either - meaning that if a user leaves a room and rejoins later s/he won’t be able to see messages from the earlier session.
 
